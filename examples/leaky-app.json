@@ -1,0 +1,7 @@
+{
+  "name": "leaky-app",
+  "cpuWorkMs": 4000,
+  "cpuWantedPerTickMs": 300,
+  "memPerTickMb": [40, 60, 80, 100, 120, 140, 160, 180],
+  "maxTicks": 20
+}

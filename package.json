@@ -1,0 +1,16 @@
+{
+  "name": "isolation-under-glass-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Isolation Under Glass — toy kernel model: namespaces mask what a process sees, cgroups leash what it uses, and a container beats a VM boot by ~150x.",
+  "scripts": {
+    "start": "node app/server.js",
+    "report": "node scripts/isolation-report.mjs",
+    "test": "node --test \"test/*.test.mjs\"",
+    "check": "npm test && npm run report"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

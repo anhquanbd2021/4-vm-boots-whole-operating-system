@@ -1,0 +1,7 @@
+{
+  "name": "polite-app",
+  "cpuWorkMs": 1600,
+  "cpuWantedPerTickMs": 200,
+  "memPerTickMb": 30,
+  "maxTicks": 20
+}

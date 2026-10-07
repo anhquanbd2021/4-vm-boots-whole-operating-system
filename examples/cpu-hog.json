@@ -1,0 +1,7 @@
+{
+  "name": "cpu-hog",
+  "cpuWorkMs": 2000,
+  "cpuWantedPerTickMs": 400,
+  "memPerTickMb": 20,
+  "maxTicks": 20
+}
